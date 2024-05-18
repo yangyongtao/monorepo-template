@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+ 
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <h1>hello world!!!</h1>
+    <elButton></elButton>
+    <gButton></gButton>
+    <JSXButton></JSXButton>
+    <GButton></GButton>
   </main>
 </template>
