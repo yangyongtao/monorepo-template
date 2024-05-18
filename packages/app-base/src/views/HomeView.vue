@@ -5,6 +5,7 @@
 <template>
   <main>
     <h1>hello world!!!</h1>
+    <p>This is Base!!!</p>
     <elButton></elButton>
     <gButton></gButton>
     <JSXButton></JSXButton>
