@@ -6,7 +6,7 @@
   <main>
     <h1>hello world!!!</h1>
     <p>This is Base!!!</p>
-    <elButton></elButton>
+    <eleButton></eleButton>
     <gButton></gButton>
     <JSXButton></JSXButton>
     <GButton></GButton>
