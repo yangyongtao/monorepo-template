@@ -16,7 +16,7 @@ import router from './router'
 
 // 新的引入方式，但是这种方式存在缺点，这种方式内的vite.config.ts会失效，即自动引入失效
 //  如果使用了eleUI,主程序也必须引入eleUI
-import commonUI from 'components'
+import commonUI from '@yyt/components'
 
 const app = createApp(App)
 
