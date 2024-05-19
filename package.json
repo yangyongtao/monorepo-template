@@ -7,9 +7,10 @@
     "packages/@yyt/*"
   ],
   "dependencies": {
+    "@yyt/components": "^1.0.0",
+    "@yyt/utils": "^0.0.0",
     "app-base": "^0.1.1",
-    "element-plus": "^2.7.3",
-    "@yyt/components": "^1.0.0"
+    "element-plus": "^2.7.3"
   },
   "devDependencies": {
     "lerna": "^8.1.3",
