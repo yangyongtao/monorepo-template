@@ -1,22 +1,29 @@
 {
   "name": "@yyt/components",
   "version": "1.0.0",
-  "description": "> TODO: description",
-  "author": "13425624421 <Young87756801>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/components.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com"
-  },
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "src/entry.ts",
   "scripts": {
-    "test": "node ./__tests__/components.test.js"
-  }
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "npm-run-all2": "^6.1.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vue": "^3.4.27",
+    "vue-tsc": "^2.0.19"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
