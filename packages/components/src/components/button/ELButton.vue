@@ -1,10 +1,10 @@
 <template>
-    <el-button type="primary">ELButton</el-button>
+    <el-button type="primary" @click="handleClick">ELButton</el-button>
 </template>
 
-<script>
-export default {
-
+<script setup lang="ts">
+function handleClick() {
+    console.log('ele bution')
 }
 </script>
 

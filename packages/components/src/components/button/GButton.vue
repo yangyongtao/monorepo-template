@@ -1,10 +1,10 @@
 <template>
-    <button>GButton</button>
+    <button @click="handleClick">GButton</button>
 </template>
 
-<script>
-export default {
-
+<script setup lang="ts">
+function handleClick() {
+    console.log('g bution')
 }
 </script>
 
