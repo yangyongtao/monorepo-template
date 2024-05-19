@@ -18,6 +18,8 @@ import router from './router'
 //  如果使用了eleUI,主程序也必须引入eleUI
 import commonUI from '@yyt/components'
 
+import * as utils from '@yyt/utils'
+
 const app = createApp(App)
 
 app.use(createPinia())
@@ -28,3 +30,5 @@ app.use(ElementPlus)
 app.use(commonUI)
 
 app.mount('#app')
+
+utils.fooA()
