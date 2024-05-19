@@ -2,7 +2,7 @@ import type { App } from 'vue'
 import elbutton from './components/button/ELButton.vue'
 import gbutton from './components/button/GButton.vue'
 import tbutton from './components/button/TButton'
-import jbutton from './components/button/JButton.tsx'
+import jbutton from './components/button/JButton'
 
 // 导出单独组件
 export { elbutton, gbutton, tbutton, jbutton }
