@@ -3,7 +3,8 @@
   "version": "v1.0.0",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/@yyt/*"
   ],
   "dependencies": {
     "app-base": "^0.1.1",
