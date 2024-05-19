@@ -33,7 +33,12 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
+  server: {
+    host: '0.0.0.0',
+    port: 3001
+  },
   build: {
+    outDir: './dist/commonUI',
     rollupOptions,
     // 可以指定压缩工具terser, 需要安装后使用 npm i terser -D
     minify: false,
@@ -43,8 +48,8 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       entry: './src/entry.ts',
-      name: 'GresgyingUI',
-      fileName: 'gresgying-ui',
+      name: 'commonUI',
+      fileName: 'common-ui',
       // 输出常用的三种模块类型
       formats: ['es', 'umd', 'iife']
     }

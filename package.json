@@ -7,8 +7,8 @@
   ],
   "dependencies": {
     "app-base": "^0.1.1",
-    "components": "^0.1.0",
-    "element-plus": "^2.7.3"
+    "element-plus": "^2.7.3",
+    "components": "^1.0.0"
   },
   "devDependencies": {
     "lerna": "^8.1.3",
