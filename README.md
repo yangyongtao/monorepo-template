@@ -73,7 +73,7 @@ packages:
 
 3.使用以下命令创建公共模块下的子模块(以utils为例)
 ````
-lerna create utils packages/foo
+lerna create utils packages/@foo
 ````
 
 4.在根目录package.json添加依赖(也可以在package下的应用上添加,原理相同)
