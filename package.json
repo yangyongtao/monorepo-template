@@ -1,7 +1,6 @@
 {
   "name": "my-mono",
   "version": "v1.0.0",
-  "private": true,
   "workspaces": [
     "packages/*",
     "packages/@yyt/*"
@@ -9,6 +8,7 @@
   "dependencies": {
     "@yyt/components": "^1.0.0",
     "@yyt/utils": "^1.0.0",
+    "@yyt/hooks": "^1.0.0",
     "app-base": "^0.1.1",
     "element-plus": "^2.7.3"
   },

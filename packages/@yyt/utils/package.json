@@ -1,7 +1,6 @@
 {
   "name": "@yyt/utils",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
   "type": "module",
   "main": "src/utils/index.ts",
   "scripts": {
