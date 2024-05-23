@@ -6,11 +6,11 @@
     "packages/@yyt/*"
   ],
   "dependencies": {
-    "@yyt/components": "^1.0.0",
-    "@yyt/utils": "^1.0.0",
-    "@yyt/hooks": "^1.0.0",
-    "app-base": "^0.1.1",
-    "element-plus": "^2.7.3"
+    "@yyt/components": "workspace:^1.0.0",
+    "@yyt/hooks": "workspace:^1.0.0",
+    "@yyt/utils": "workspace:^1.0.0",
+    "element-plus": "^2.7.3",
+    "qiankun": "^2.10.16"
   },
   "devDependencies": {
     "lerna": "^8.1.3",

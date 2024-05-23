@@ -87,12 +87,15 @@ lerna create utils packages/@foo
 
 5.建立连接
 ````
-pnpm install @foo/utils
+pnpm install @foo/utils -w
 ````
 或者重新安装
 ````
 pnpm i -w
 ````
+
+上述方案如果出现npm仓库的报错（毕竟是本地的包当然找不到），可以使用workspace协议
+https://pnpm.io/zh/workspaces
 
 
 
