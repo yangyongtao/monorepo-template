@@ -20,9 +20,6 @@ importers:
       element-plus:
         specifier: ^2.7.3
         version: 2.7.3(vue@3.4.27(typescript@5.4.5))
-      qiankun:
-        specifier: ^2.10.16
-        version: 2.10.16
     devDependencies:
       lerna:
         specifier: ^8.1.3
@@ -196,6 +193,9 @@ importers:
       vue-router:
         specifier: ^4.3.0
         version: 4.3.2(vue@3.4.27(typescript@5.4.5))
+      wujie:
+        specifier: ^1.0.22
+        version: 1.0.22
     devDependencies:
       '@rushstack/eslint-patch':
         specifier: ^1.8.0
@@ -3920,6 +3920,9 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
+
+  wujie@1.0.22:
+    resolution: {integrity: sha512-gzx13fp9hgTHdV9XetkVmp794uDSR93Zs9jLr891RaWRuMiLFoxh3Pe4qbmW604SxI8nMTHeIRydbgC7YxQ50Q==}
 
   xml-name-validator@4.0.0:
     resolution: {integrity: sha512-ICP2e+jsHvAj2E2lIHxa5tjXRlKDJo4IdvPvCXbXQGdzSfmSpNVyIKMvoZHjDY9DP0zV17iI85o90vRFXNccRw==}
@@ -8039,6 +8042,10 @@ snapshots:
       write-json-file: 3.2.0
 
   ws@8.17.0: {}
+
+  wujie@1.0.22:
+    dependencies:
+      '@babel/runtime': 7.24.5
 
   xml-name-validator@4.0.0: {}
 
